@@ -7,7 +7,7 @@
 
 
 
-### ABOUT
+### METHOD: ABOUT
 
 ```
 curl -X GET /gems -d 'query=devise' -d 'method=about'
@@ -42,7 +42,7 @@ curl -X GET /gems -d 'query=devise' -d 'method=about'
 +-------------------+------------------------------------------------------------------+%  
 ```
 
-### SEARCH
+### METHOD: SEARCH
 
 ```
 curl -X GET /gems -d 'query=rails' -d 'method=search'
@@ -235,7 +235,7 @@ curl -X GET /gems -d 'query=rails' -d 'method=search'
 +-----------+--------------------------------------------------------------------+%
 ```
 
-### OWNED
+### METHOD: OWNED
 
 ```
 curl -X GET /gems -d 'query=davidesantangelo' -d 'method=owned'
