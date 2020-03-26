@@ -232,7 +232,6 @@ curl -X GET /gems -d 'query=rails' -d 'method=search'
 | downloads | 6187450                                                            |
 | authors   | Bozhidar Batsov, Jonas Arvidsson, Yuji Nakayama                    |
 | gem_uri   | https://rubygems.org/gems/rubocop-rails-2.5.0.gem                  |
-+-----------+--------------------------------------------------------------------+
 +-----------+--------------------------------------------------------------------+%
 ```
 
@@ -240,5 +239,60 @@ curl -X GET /gems -d 'query=rails' -d 'method=search'
 
 ```
 curl -X GET /gems -d 'query=davidesantangelo' -d 'method=owned'
+
+```
+
+```
++-----------+---------------------------------------------------+
+| OWNED     | davidesantangelo                                  |
++-----------+---------------------------------------------------+
+| name      | emailhunter                                       |
+| version   | 0.8.1                                             |
+| downloads | 40858                                             |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/emailhunter-0.8.1.gem   |
++-----------+---------------------------------------------------+
+| name      | restcountry                                       |
+| version   | 0.6.0                                             |
+| downloads | 24240                                             |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/restcountry-0.6.0.gem   |
++-----------+---------------------------------------------------+
+| name      | share_counter                                     |
+| version   | 0.3.4                                             |
+| downloads | 14109                                             |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/share_counter-0.3.4.gem |
++-----------+---------------------------------------------------+
+| name      | webinspector                                      |
+| version   | 0.5.0                                             |
+| downloads | 12460                                             |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/webinspector-0.5.0.gem  |
++-----------+---------------------------------------------------+
+| name      | geoplugin                                         |
+| version   | 0.3.1                                             |
+| downloads | 8105                                              |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/geoplugin-0.3.1.gem     |
++-----------+---------------------------------------------------+
+| name      | text_search                                       |
+| version   | 0.1.3                                             |
+| downloads | 4444                                              |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/text_search-0.1.3.gem   |
++-----------+---------------------------------------------------+
+| name      | quintly                                           |
+| version   | 0.1.3                                             |
+| downloads | 4007                                              |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/quintly-0.1.3.gem       |
++-----------+---------------------------------------------------+
+| name      | apiwha                                            |
+| version   | 0.1.1                                             |
+| downloads | 585                                               |
+| authors   | Davide Santangelo                                 |
+| gem_uri   | https://rubygems.org/gems/apiwha-0.1.1.gem        |
++-----------+---------------------------------------------------+%    
 
 ```
