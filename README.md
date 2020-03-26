@@ -5,6 +5,16 @@
 
 ## USAGE
 
+```
+curl -X GET /gems -d 'method=help'
+
+curl -X GET /gems -d 'query=devise' -d 'method=about'
+curl -X GET /gems -d 'query=rails' -d 'method=search'
+curl -X GET /gems -d 'query=davidesantangelo' -d 'method=emailhunter'
+
+curl -X GET /gems -d 'method=popular'
+curl -X GET /gems -d 'method=just_updated'
+```
 
 
 ### METHOD: ABOUT
