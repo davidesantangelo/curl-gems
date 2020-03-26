@@ -13,14 +13,14 @@ curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=help'
 ## USAGE
 
 ```
-curl -X GET /gems -d 'method=help'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=help'
 
-curl -X GET /gems -d 'query=devise' -d 'method=about'
-curl -X GET /gems -d 'query=rails' -d 'method=search'
-curl -X GET /gems -d 'query=davidesantangelo' -d 'method=emailhunter'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=devise' -d 'method=about'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=rails' -d 'method=search'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=davidesantangelo' -d 'method=emailhunter'
 
-curl -X GET /gems -d 'method=popular'
-curl -X GET /gems -d 'method=just_updated'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=popular'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=just_updated'
 ```
 
 ### METHOD: HELP
