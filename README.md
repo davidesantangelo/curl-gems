@@ -952,7 +952,7 @@ curl -X GET localhost:3000/gems -d 'method=just_updated'
 ## Built With
 
 - [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
-- [Terminal-Table](https://github.com/tj/terminal-table) Ruby ASCII Table Generator, simple and feature rich..
+- [Terminal-Table](https://github.com/tj/terminal-table) &mdash;  Ruby ASCII Table Generator, simple and feature rich..
 
 ## Contributing
 
