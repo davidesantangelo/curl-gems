@@ -1,7 +1,5 @@
 # CURL-GEMS
 
-## INTRO
-
 
 ## USAGE
 
@@ -16,6 +14,24 @@ curl -X GET /gems -d 'method=popular'
 curl -X GET /gems -d 'method=just_updated'
 ```
 
+### METHOD: HELP
+
+```
+curl -X GET /gems -d 'method=help'
+
+```
+
+```
++--------------+-------+---------------------------------------------------------------------+
+| METHOD       | PARAM | EXAMPLE                                                             |
++--------------+-------+---------------------------------------------------------------------+
+| about        | query | eg. curl -X GET /gems -d 'query=devise' -d 'method=about'           |
+| search       | query | eg. curl -X GET /gems -d 'query=rails' -d 'method=search'           |
+| owned        | query | eg. curl -X GET /gems -d 'query=davidesantangelo' -d 'method=owned' |
+| latest       |       | eg. curl -X GET /gems -d 'method=latest'                            |
+| just_updated |       | eg. curl -X GET /gems -d 'method=just_updated'                      |
++--------------+-------+---------------------------------------------------------------------+%  
+```
 
 ### METHOD: ABOUT
 
