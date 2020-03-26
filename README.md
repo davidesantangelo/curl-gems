@@ -949,6 +949,11 @@ curl -X GET localhost:3000/gems -d 'method=just_updated'
 +-----------------+-----------------------------------------------------------------------------+%   
 ```
 
+## Built With
+
+- [Ruby on Rails](https://github.com/rails/rails) &mdash; Our back end API is a Rails app. It responds to requests RESTfully in JSON.
+- [Terminal-Table](https://github.com/tj/terminal-table) Ruby ASCII Table Generator, simple and feature rich..
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/davidesantangelo/curl-gems. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
