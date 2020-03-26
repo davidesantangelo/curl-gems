@@ -1,24 +1,29 @@
-# README
+# CURL-GEMS
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# INTRO
 
-Things you may want to cover:
 
-* Ruby version
+# USAGE
 
-* System dependencies
 
-* Configuration
 
-* Database creation
+## ABOUT
 
-* Database initialization
+```
+curl -X GET /gems -d 'query=emailhunter' -d 'method=about'
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+## SEARCH
 
-* Deployment instructions
+```
+curl -X GET /gems -d 'query=rails' -d 'method=search'
 
-* ...
+```
+
+## OWNED
+
+```
+curl -X GET /gems -d 'query=davidesantangelo' -d 'method=owned'
+
+```
