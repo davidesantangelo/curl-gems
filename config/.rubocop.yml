@@ -1,0 +1,16 @@
+inherit_from: .rubocop_todo.yml
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/MultilineMethodCallBraceLayout:
+  EnforcedStyle: new_line
+
+Layout/DotPosition:
+  EnforcedStyle: trailing
+
+Metrics/LineLength:
+  Max: 120

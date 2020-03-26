@@ -5,6 +5,17 @@ class GemsController < ApplicationController
 
   def index
     case params[:method]
+    when 'help'
+      rows = []
+      rows << %w[METHOD PARAM EXAMPLE]
+      rows << :separator
+      rows << ['about', 'query', 'eg. curl -X GET /gems -d \'query=devise\' -d \'method=about\'']
+      rows << ['search', 'query', 'eg. curl -X GET /gems -d \'query=rails\' -d \'method=search\'']
+      rows << ['owned', 'query', 'eg. curl -X GET /gems -d \'query=davidesantangelo\' -d \'method=owned\'']
+
+      rows << ['latest', '', 'eg. curl -X GET /gems -d \'method=latest\'']
+      rows << ['just_updated', '', 'eg. curl -X GET /gems -d \'method=just_updated\'']
+
     when 'about', 'search', 'owned'
       rows = send(params[:method], params[:query])
     when 'latest', 'just_updated'
@@ -84,6 +95,6 @@ class GemsController < ApplicationController
       rows << :separator
     end
 
-    rows
+    rows[0..-2]
   end
 end
