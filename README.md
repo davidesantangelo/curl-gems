@@ -1,5 +1,6 @@
 # CURL-GEMS
 
+A basic CURL wrapper fo rubygems.org API. The app provides an easy interface for sending cURL requests from your console to rubygems.org API.
 
 <a href="https://ibb.co/z4C9vnd"><img src="https://i.ibb.co/MCKw02d/Screenshot-2020-03-26-at-15-50-23.png" alt="Screenshot-2020-03-26-at-15-50-23" border="0"></a><br />
 
