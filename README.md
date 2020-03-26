@@ -1,27 +1,27 @@
 # CURL-GEMS
 
-# INTRO
+### INTRO
 
 
-# USAGE
+### USAGE
 
 
 
-## ABOUT
+### ABOUT
 
 ```
 curl -X GET /gems -d 'query=emailhunter' -d 'method=about'
 
 ```
 
-## SEARCH
+### SEARCH
 
 ```
 curl -X GET /gems -d 'query=rails' -d 'method=search'
 
 ```
 
-## OWNED
+### OWNED
 
 ```
 curl -X GET /gems -d 'query=davidesantangelo' -d 'method=owned'
