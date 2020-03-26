@@ -10,37 +10,36 @@
 ### ABOUT
 
 ```
-curl -X GET /gems -d 'query=emailhunter' -d 'method=about'
+curl -X GET /gems -d 'query=devise' -d 'method=about'
 
 ```
 
 ```
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| ABOUT             | emailhunter                                                                                                                 |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------+
-| name              | emailhunter                                                                                                                 |
-| downloads         | 40858                                                                                                                       |
-| version           | 0.8.1                                                                                                                       |
-| version_downloads | 493                                                                                                                         |
-| platform          | ruby                                                                                                                        |
-| authors           | Davide Santangelo                                                                                                           |
-| info              | A tiny ruby wrapper around Email Hunter API.
-|
-| licenses          | ["MIT"]                                                                                                                     |
-| metadata          |                                                                                                                             |
-| yanked            | false                                                                                                                       |
-| sha               | 1a86a67ec808a15bd0e3bf292a0a111a02dfa8a1db4b3a7b1612a8720aae374a                                                            |
-| project_uri       | https://rubygems.org/gems/emailhunter                                                                                       |
-| gem_uri           | https://rubygems.org/gems/emailhunter-0.8.1.gem                                                                             |
-| homepage_uri      |                                                                                                                             |
-| wiki_uri          |                                                                                                                             |
-| documentation_uri | http://www.rubydoc.info/gems/emailhunter/0.8.1                                                                              |
-| mailing_list_uri  |                                                                                                                             |
-| source_code_uri   | https://github.com/davidesantangelo/emailhunter                                                                             |
-| bug_tracker_uri   |                                                                                                                             |
-| changelog_uri     |                                                                                                                             |
-| dependencies      |                                                                                                                             |
-+-------------------+-----------------------------------------------------------------------------------------------------------------------------+%  
++-------------------+------------------------------------------------------------------+
+| ABOUT             | devise                                                           |
++-------------------+------------------------------------------------------------------+
+| name              | devise                                                           |
+| downloads         | 70965027                                                         |
+| version           | 4.7.1                                                            |
+| version_downloads | 9293611                                                          |
+| platform          | ruby                                                             |
+| authors           | José Valim, Carlos Antônio                                       |
+| info              | Flexible authentication solution for Rails with Warden           |
+| licenses          | ["MIT"]                                                          |
+| metadata          |                                                                  |
+| yanked            | false                                                            |
+| sha               | 31e5eaebf25a68c8a0ccce173fe109fb4e45abcbb992777374e01ad900eec428 |
+| project_uri       | https://rubygems.org/gems/devise                                 |
+| gem_uri           | https://rubygems.org/gems/devise-4.7.1.gem                       |
+| homepage_uri      | https://github.com/plataformatec/devise                          |
+| wiki_uri          |                                                                  |
+| documentation_uri | http://github.com/plataformatec/devise                           |
+| mailing_list_uri  | http://groups.google.com/group/plataformatec-devise              |
+| source_code_uri   | http://github.com/plataformatec/devise                           |
+| bug_tracker_uri   |                                                                  |
+| changelog_uri     |                                                                  |
+| dependencies      |                                                                  |
++-------------------+------------------------------------------------------------------+%  
 ```
 
 ### SEARCH
