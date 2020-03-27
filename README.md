@@ -959,6 +959,8 @@ curl -X GET localhost:3000/gems -d 'method=just_updated'
 ```
 ## HTTPie
 
+[https://httpie.org](https://httpie.org)
+
 ``` bash
 
 http -b https://curl-gems.herokuapp.com/gems method==help
