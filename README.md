@@ -17,7 +17,7 @@ curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=help'
 
 curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=devise' -d 'method=about'
 curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=rails' -d 'method=search'
-curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=davidesantangelo' -d 'method=emailhunter'
+curl -X GET https://curl-gems.herokuapp.com/gems -d 'query=davidesantangelo' -d 'method=owned'
 
 curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=popular'
 curl -X GET https://curl-gems.herokuapp.com/gems -d 'method=just_updated'
@@ -956,6 +956,19 @@ curl -X GET localhost:3000/gems -d 'method=just_updated'
 | authors         | PHCDevworks                                                                 |
 | gem_uri         | https://rubygems.org/gems/phcdevworks_portfolio-4.2.0.gem                   |
 +-----------------+-----------------------------------------------------------------------------+%   
+```
+## HTTPie
+
+``` bash
+
+http -b https://curl-gems.herokuapp.com/gems method==help
+http -b https://curl-gems.herokuapp.com/gems query==emailhunter method==about
+http -b https://curl-gems.herokuapp.com/gems query==rails method==search
+http -b https://curl-gems.herokuapp.com/gems query==davidesantangelo method==owned
+http -b https://curl-gems.herokuapp.com/gems method==latest
+http -b https://curl-gems.herokuapp.com/gems method==just_updated
+
+
 ```
 
 ## Built With
